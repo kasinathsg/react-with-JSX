@@ -1,0 +1,24 @@
+/* add your styles here */
+body{
+    background-color: aqua;
+}
+.lab h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+  }
+  
+  .image{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    margin-left: 1px;
+    margin-top: 30px;
+  }
+
+  .image img{
+    height: 700px;
+    width: 100%;
+
+  }
